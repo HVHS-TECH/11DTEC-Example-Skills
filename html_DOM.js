@@ -1,3 +1,4 @@
 function stopPokingMe(){
-    pageHeading.innerHTML = getSomeText.value
+    pageHeading.innerHTML = "You pressed the button!";
 }
+

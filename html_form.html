@@ -16,18 +16,32 @@
 
 <body style="display:flex;">
   <div>
-    <h1>11DTEC Example pages</h1>
-    <h3>Select a task to run</h3>
-    <div class="container">
-      <h2> Part 1</h2>
-      <div class="column">
-        <button onclick="location.href='html_DOM.html'">HTML DOM</button>
-        <button onclick="location.href='html_form'">t02: variables</button>
-        <button onclick="location.href='html/t03_maths.html'">t03: maths</button>
-        <button onclick="location.href='html/t04_debugging.html'">t04: debugging</button>
-      </div>
-    </div>
-  </div>
+    <h1>11DTEC form example</h1>
+<h3 id="welcomeMessage"></h3>
+<!--***
+    <form onsubmit="return false;">
+  <label for="fname">Name:</label><br>
+  <input type="text" id="form_name" name="form_name" value="Mr Bob"><br>
+  <button onclick="getFormInput()" value="submit">ENTER</button>
+</form> 
+
+
+    <form onsubmit="return false;">
+  <label for="input_name">Name:</label><br>
+  <input type="text" id="input_name" name="input_name" value="Mr Bob"><br>
+  <input type="submit" onclick="getFormInput()">
+</form> 
+***-->
+<form onsubmit="return false;">
+  <label>Name:</label><br>
+  <input type="text" id="input_name"><br>
+  <input type="submit" onclick="getFormInput()">
+</form> 
+
+
+
+<script src="html_form.js"></script>
+
 </body>
 
 </html>
