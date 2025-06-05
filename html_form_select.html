@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>html form example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheets *******************************************-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--*************************************************************
+  BODY
+**************************************************************-->
+
+<body style="display:flex;">
+    <div>
+        <h1>11DTEC form example</h1>
+        <h3 id="welcomeMessage"></h3>
+
+        <form onsubmit="return false;">
+            <label>Name:</label><br>
+            <input type="text" id="input_name" value="Mr Bob">
+
+            <br><br>
+
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+
+            <br><br>
+
+            <input type="submit" onclick="getSelectInput()">
+
+
+            <br><br><br><br>
+
+
+            <select id="fruitSelect" name="fruitSelect">
+            </select>
+        </form>
+
+
+        <script src="html_form.js"></script>
+
+</body>
+
+</html>
+<!--*************************************************************
+  END OF INDEX.HTML
+**************************************************************-->

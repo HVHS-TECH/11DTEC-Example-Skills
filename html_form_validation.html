@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>html select example</title>
+  <title>html validation example</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,17 +16,18 @@
 
 <body style="display:flex;">
   <div>
-    <h1>11DTEC select example</h1>
+    <h1>11DTEC validation example</h1>
 <h3 id="welcomeMessage"></h3>
 
 <form onsubmit="return false;">
   <label>Name:</label><br>
-  <input type="text" id="input_name" value="Mr Bob"> <br><br>
+  <input type="text" id="input_name"  required> <br><br>
+  <input type="number" id="input_name" max="100" min="0"> <br><br>
   <input type="submit" onclick="getFormInput()">
 </form> 
 
 
-<script src="html_form.js"></script>
+<script src="html_form_validation.js"></script>
 
 </body>
 
